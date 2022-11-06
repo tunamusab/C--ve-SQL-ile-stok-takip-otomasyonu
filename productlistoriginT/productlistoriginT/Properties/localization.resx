@@ -1,0 +1,300 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="S001" xml:space="preserve">
+    <value>GİRİŞ</value>
+  </data>
+  <data name="S002" xml:space="preserve">
+    <value>TÜRKÇE</value>
+  </data>
+  <data name="S003" xml:space="preserve">
+    <value>Kullanıcı adı</value>
+  </data>
+  <data name="S004" xml:space="preserve">
+    <value>Şifre</value>
+  </data>
+  <data name="S005" xml:space="preserve">
+    <value>KULLANICI:</value>
+  </data>
+  <data name="S006" xml:space="preserve">
+    <value>ÜRÜN ID</value>
+  </data>
+  <data name="S007" xml:space="preserve">
+    <value>ADET</value>
+  </data>
+  <data name="S008" xml:space="preserve">
+    <value>EKLE</value>
+  </data>
+  <data name="S009" xml:space="preserve">
+    <value>SAT</value>
+  </data>
+  <data name="S010" xml:space="preserve">
+    <value>ÜRÜN BİLGİSİ</value>
+  </data>
+  <data name="S011" xml:space="preserve">
+    <value>İSTATİSTİK</value>
+  </data>
+  <data name="S012" xml:space="preserve">
+    <value>MÜŞTERİ BİLGİSİ</value>
+  </data>
+  <data name="S013" xml:space="preserve">
+    <value>ÜRÜN KONUM</value>
+  </data>
+  <data name="S014" xml:space="preserve">
+    <value>Ara</value>
+  </data>
+  <data name="S015" xml:space="preserve">
+    <value>YENİ KULLANICI EKLE/SİL</value>
+  </data>
+  <data name="S016" xml:space="preserve">
+    <value>KULLANICI ADI</value>
+  </data>
+  <data name="S017" xml:space="preserve">
+    <value>ŞİFRE</value>
+  </data>
+  <data name="S018" xml:space="preserve">
+    <value>KULLANICI NO</value>
+  </data>
+  <data name="S019" xml:space="preserve">
+    <value>SİL</value>
+  </data>
+  <data name="S020" xml:space="preserve">
+    <value>KULLANICI GEÇMİŞİ</value>
+  </data>
+  <data name="S021" xml:space="preserve">
+    <value>GEÇMİŞİ TEMİZLE</value>
+  </data>
+  <data name="S022" xml:space="preserve">
+    <value>MÜŞTERİ TC</value>
+  </data>
+  <data name="S023" xml:space="preserve">
+    <value>SATIŞ TÜRÜ</value>
+  </data>
+  <data name="S024" xml:space="preserve">
+    <value>Borç</value>
+  </data>
+  <data name="S025" xml:space="preserve">
+    <value>müşteri borçları</value>
+  </data>
+  <data name="S026" xml:space="preserve">
+    <value>müşteri alımları</value>
+  </data>
+  <data name="S027" xml:space="preserve">
+    <value>MİKTAR</value>
+  </data>
+  <data name="S028" xml:space="preserve">
+    <value>BORÇ TAHSİL</value>
+  </data>
+  <data name="S029" xml:space="preserve">
+    <value>EN POPÜLER ÜRÜNLER</value>
+  </data>
+  <data name="S030" xml:space="preserve">
+    <value>ÜRÜN STOK DURUMU</value>
+  </data>
+  <data name="S031" xml:space="preserve">
+    <value>ÇOK KAZANDIRAN MÜŞTERİLER</value>
+  </data>
+  <data name="S032" xml:space="preserve">
+    <value>TOPLAM KAZANÇ</value>
+  </data>
+  <data name="S033" xml:space="preserve">
+    <value>STOK GİDERİ</value>
+  </data>
+  <data name="S034" xml:space="preserve">
+    <value>STOK DEĞERİ</value>
+  </data>
+  <data name="S035" xml:space="preserve">
+    <value>AD</value>
+  </data>
+  <data name="S036" xml:space="preserve">
+    <value>SOYAD</value>
+  </data>
+  <data name="S037" xml:space="preserve">
+    <value>ADRES</value>
+  </data>
+  <data name="S038" xml:space="preserve">
+    <value>TELEFON</value>
+  </data>
+  <data name="S039" xml:space="preserve">
+    <value>GÜNCELLE</value>
+  </data>
+  <data name="S040" xml:space="preserve">
+    <value>TC ARA</value>
+  </data>
+  <data name="S041" xml:space="preserve">
+    <value>YENİ KULLANICI İŞLEMLERİ</value>
+  </data>
+  <data name="S042" xml:space="preserve">
+    <value>ANA SAYFA</value>
+  </data>
+  <data name="S043" xml:space="preserve">
+    <value>HAREKET GEÇMİŞİ</value>
+  </data>
+  <data name="S044" xml:space="preserve">
+    <value>KULLANICI GİRİŞ GEÇMİŞİ</value>
+  </data>
+  <data name="S045" xml:space="preserve">
+    <value>ÜRÜN ADI</value>
+  </data>
+  <data name="S046" xml:space="preserve">
+    <value>KATEGORİ</value>
+  </data>
+  <data name="S047" xml:space="preserve">
+    <value>MARKA</value>
+  </data>
+  <data name="S048" xml:space="preserve">
+    <value>KALİTE</value>
+  </data>
+  <data name="S049" xml:space="preserve">
+    <value>AKSESUAR</value>
+  </data>
+  <data name="S050" xml:space="preserve">
+    <value>ÜRETİM YERİ</value>
+  </data>
+  <data name="S051" xml:space="preserve">
+    <value>FİYATI</value>
+  </data>
+  <data name="S052" xml:space="preserve">
+    <value>DEPO NO</value>
+  </data>
+  <data name="S053" xml:space="preserve">
+    <value>MALİYETİ</value>
+  </data>
+  <data name="S054" xml:space="preserve">
+    <value>ÜRÜN ADET</value>
+  </data>
+  <data name="S055" xml:space="preserve">
+    <value>STOKTAN ÜRÜN SİL</value>
+  </data>
+  <data name="S056" xml:space="preserve">
+    <value>ID ARA</value>
+  </data>
+  <data name="S057" xml:space="preserve">
+    <value>MÜŞTERİ İŞLEMLERİ</value>
+  </data>
+  <data name="S058" xml:space="preserve">
+    <value>ÜRÜN İŞLEMLERİ</value>
+  </data>
+  <data name="S059" xml:space="preserve">
+    <value>ADMİN EKRANI</value>
+  </data>
+  <data name="S060" xml:space="preserve">
+    <value>RAPORLA</value>
+  </data>
+</root>
