@@ -19,7 +19,7 @@ namespace productlistoriginT
         }
         SqlDataAdapter da = new SqlDataAdapter();
         DataSet daset = new DataSet();
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-9C7V3JG\\SQLEXPRESS; Initial Catalog=stoktakip; Integrated Security=TRUE");
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-; Initial Catalog=stoktakip; Integrated Security=TRUE");
         private void Form4_Load(object sender, EventArgs e)
         {
             label6.Text = Properties.localization.S035;

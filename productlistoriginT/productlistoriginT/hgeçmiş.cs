@@ -13,7 +13,7 @@ namespace productlistoriginT
 {
     public partial class hgeçmiş : Form
     {
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-9C7V3JG\\SQLEXPRESS; Initial Catalog=stoktakip; Integrated Security=TRUE");
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP; Initial Catalog=stoktakip; Integrated Security=TRUE");
         SqlDataAdapter da = new SqlDataAdapter();
         public hgeçmiş()
         {

@@ -15,7 +15,7 @@ namespace productlistoriginT
 {
     public partial class Form1 : Form
     {
-        SqlConnection connection = new SqlConnection("Data Source=DESKTOP-9C7V3JG\\SQLEXPRESS; Initial Catalog=stoktakip; Integrated Security=TRUE");
+        SqlConnection connection = new SqlConnection("Data Source=DESKTOP; Initial Catalog=stoktakip; Integrated Security=TRUE");
         public Form1()
         {
             InitializeComponent();

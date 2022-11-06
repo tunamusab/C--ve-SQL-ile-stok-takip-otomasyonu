@@ -14,7 +14,7 @@ namespace productlistoriginT
     public partial class gecmis : Form
     {
         SqlDataAdapter da = new SqlDataAdapter();
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-9C7V3JG\\SQLEXPRESS; Initial Catalog=stoktakip; Integrated Security=TRUE");
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP; Initial Catalog=stoktakip; Integrated Security=TRUE");
         public gecmis()
         {
             InitializeComponent();

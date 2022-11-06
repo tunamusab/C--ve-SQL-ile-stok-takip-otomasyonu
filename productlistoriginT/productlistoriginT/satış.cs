@@ -18,7 +18,7 @@ namespace productlistoriginT
             InitializeComponent();
         }
 
-        SqlConnection baglanti = new SqlConnection("Data Source = DESKTOP-9C7V3JG\\SQLEXPRESS; Initial Catalog = stoktakip; Integrated Security = True");
+        SqlConnection baglanti = new SqlConnection("Data Source = DESKTOP; Initial Catalog = stoktakip; Integrated Security = True");
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();

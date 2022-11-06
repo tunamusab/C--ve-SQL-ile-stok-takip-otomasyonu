@@ -19,7 +19,7 @@ namespace productlistoriginT
         }
         DataSet daset = new DataSet();
         SqlDataAdapter da = new SqlDataAdapter();
-        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP-9C7V3JG\\SQLEXPRESS; Initial Catalog=stoktakip; Integrated Security=TRUE");
+        SqlConnection baglanti = new SqlConnection("Data Source=DESKTOP; Initial Catalog=stoktakip; Integrated Security=TRUE");
         private void button3_Click(object sender, EventArgs e)
         {
             this.Hide();
